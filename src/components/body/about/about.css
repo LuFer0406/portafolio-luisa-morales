@@ -16,7 +16,7 @@
 
 .about-info h1 {
     font-size: 4rem;
-    font-weight: bold;
+    font-weight: 900;
 }
 
 .about-name {
@@ -34,18 +34,27 @@
 .about-description {
     margin-top: 2.4em;
     font-size: 1rem;
-    max-width: 730px;
-    text-align: justify;
+}
+
+.about-info p {
+    max-width: 600px;
     justify-content: center;
+    text-align: justify;
+    margin: auto;
 }
 
 @media only screen and (max-width: 720px){
     .about-info {
-        font-size: 20px;
+        text-align: justify;
     }
-
-    .info-name {
-        font-size: 26px;
+    .about-info h1 {
+        font-size: 2.3rem;
+    }
+    .about-info h2 {
+        font-size: 1.5rem;
+    }
+    .about-description {
+        font-size: 15px;
     }
 }
 
