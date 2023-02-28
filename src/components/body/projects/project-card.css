@@ -10,6 +10,7 @@
 
 .project-photo {
     width: 40%;
+    border-radius: 5px;
 }
 
 .project-info {
