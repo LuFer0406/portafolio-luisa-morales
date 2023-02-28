@@ -1,0 +1,53 @@
+.about {
+    padding-bottom: 48px;
+    color: #cdcdff;
+}
+
+.about-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.about-info {
+    font-size: 24px;
+}
+
+.about-info h1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.about-name {
+    color: #90a0d9;
+}
+
+.about-role {
+    margin-top: 1.2em;
+}
+
+.about-info h2 {
+    font-size: 2rem;
+}
+
+.about-description {
+    margin-top: 2.4em;
+    font-size: 1rem;
+    max-width: 730px;
+    text-align: justify;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 720px){
+    .about-info {
+        font-size: 20px;
+    }
+
+    .info-name {
+        font-size: 26px;
+    }
+}
+
+
+
